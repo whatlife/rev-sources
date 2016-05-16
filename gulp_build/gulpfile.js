@@ -14,9 +14,13 @@ var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
 var cwd = __dirname;
-var urlMap = {};
-var urlMapFile = path.join(cwd, 'file_map.json');
-console.log('cwd ' +cwd);
+var parentCwd = path.resolve(cwd, '..');
+
+// TODO '''''
+// devTest目录是先执行mincss， minjs，minimg，cptodir这些命令之后，生成的压缩版本的资源文件的目录
+// 必须先有这个目录，才能计算到md5值 
+var compressedCwd = parentCwd+ '\\devTest';
+
 
 /*-------------------------------------------------------------------
     Change Log
@@ -79,34 +83,21 @@ function filesMd5(file) {
         line = lines[i];
         groups = FILE_DECL.exec(line);
         if (groups && groups.length > 1) {
-            // console.log('groups[2] >>>>>>>>>> ' + groups[2]);
             var normPath = path.normalize(groups[3]);
-            // console.log('groups[3] >>>>>>>>>> ' + groups[3]);
             if (groups[2].toLowerCase() == 'common') {
                 _pathCommonOrStatic = 'common';
             } else {
                 _pathCommonOrStatic = 'static';
             }
             var _staticPath = 'cdn\\' + _pathCommonOrStatic;
-            console.log('_staticPath >>>>>> ' + _staticPath);
-            if (normPath.indexOf(path.sep) === 0) {
-                dependencyPath = path.join(file.base, _staticPath, normPath);
-                // console.log('dependencyPath >>>>>>>> ' + dependencyPath);
-                // afterMd5DependencyPath = path.join(cwd, _staticPath, normPath);
-            } else {
-                // dependencyPath = path.join(file.base, _staticPath, normPath);
-                afterMd5DependencyPath = path.join(cwd, _staticPath, normPath);
-            }
+            afterMd5DependencyPath = path.join(compressedCwd, _staticPath, normPath);
 
             try {
                 data = fs.readFileSync(afterMd5DependencyPath);
                 hash = crypto.createHash('md5');
                 hash.update(data.toString(), 'utf8');
                 originGroupSubItem = groups[3].concat('?v=' + hash.digest('hex'));
-                console.log('groups[33333333] >>>>>>>> '  + groups[3]);
-                console.log('originGroupSubItem >>>>>>>> '  + originGroupSubItem);
                 line = line.replace(groups[3], originGroupSubItem);
-                // console.log('line :>>>>>>>>>>>>' + line);
             } catch (e) {
                 // fail silently.
             }
@@ -130,8 +121,7 @@ function filesMd5(file) {
     3 替换后生成的jsp文件置于devTest/html目录下
 -------------------------------------------------------------------*/
 gulp.task('revHtml', function() {
-    // var stream = gulp.src(_ninPath.html, ['!../cdn/**', '!../WEB-INF/**', '!../META-INF/**', '!../DEMO_STATIC/**']);
-    var stream = gulp.src(['../devTest/html/**/*.jsp']);
+    var stream = gulp.src(_ninPath.html, ['!../cdn/**', '!../WEB-INF/**', '!../META-INF/**', '!../DEMO_STATIC/**']);
     stream = stream.pipe(through.obj(function(file, enc, cb) {
         filesMd5(file);
         this.push(file);
@@ -139,13 +129,6 @@ gulp.task('revHtml', function() {
     }));
     return stream.pipe(gulp.dest(_ninDeploy.dev + 'html'));
 
-    fs.writeFile(urlMapFile, JSON.stringify(urlMap, null, '\t'), function(err) {
-        if (err) {
-          console.log(err);
-        } else {
-          console.log("JSON saved to " + urlMapFile);
-        }
-    });
 });
 
 

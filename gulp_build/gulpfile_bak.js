@@ -97,15 +97,11 @@ function filesMd5(file) {
             } catch (e) {
                 // fail silently.
             }
-            var pathKey = groups[3];
-            var pathValue = originGroupSubItem;
-            urlMap[pathKey] = pathValue;
         }
         lines[i] = line;
         FILE_DECL.lastIndex = 0;
 
     }
-        console.log(urlMap);
 
     file.contents = new Buffer(lines.join('\n'));
     // cb(null, file);
