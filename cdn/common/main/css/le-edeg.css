@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, dl, dt, dd {padding: 0; margin: 0;}
+/**body{color:#666666; font-family: "微软雅黑",italic,Consolas; font-size:14px; background-color:#efefef;}**/
+table { border-collapse: collapse; border-spacing:0;}
+.t_img img {
+border-radius: 50%;
+}
+img { vertical-align: top; border:none }
+input, button { vertical-align: middle; border: none; }
+button {cursor:pointer; }
+a{text-decoration:none; cursor:pointer;} a:hover{text-decoration:none; }
+ol, ul, dl, li{ list-style:none outside none; vertical-align:bottom;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{clear:both;}
+i{ font-style:normal;}
+.m_right{ margin-right:26px;} 
+
+
+.con{ width:1200px; margin: 0 auto 30px auto;}
+.l_list{padding: 0; width: 180px;}
+.tit{background-color:#fdfdfd; height:150px; border:1px solid #c6d4c3;}
+.t_img{width:100px; height:100px; margin:10px auto;}
+.tit_t{line-height:15px; text-align:center; color:#53b0cc; font-family:"微软雅黑"; font-size:18px;}
+.bt{ line-height:25px; color:#555555;}
+.sz a{ color:#666666; font-size:12px;}
+.sz a:hover{ color:#ff6700;}
+i.icon {
+   font-size: 16px;
+   margin-right:20px;
+   line-height:40px;
+   vertical-align: middle;
+   color:#999999;
+   width:12px;
+   display:inline-block;
+}
+.nav{ border:1px solid #cccccc;background-color:#fdfdfd;border-top:0px;}
+.nav_bt{ color: #3baa24; font-family: "微软雅黑";  font-size: 14px; height: 3px;
+ line-height: 35px;  padding-left: 20px;}
+.nav div.under-line{ border-bottom:1px solid #E0E0E0;margin:0 6px;height:1px;padding:0;}
+
+.nav ul li a{display:block; height:40px; line-height:40px; color:#666666; padding-left:13px;vertical-align: middle;}
+.nav ul li .loc_8{ background:url(../img/2.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_1{ background:url(../img/1-1.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_2{ background:url(../img/3.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_3{ background:url(../img/4.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_4{ background:url(../img/5.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_5{ background:url(../img/6.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_6{ background:url(../img/7.png) no-repeat scroll 20px 12px;}
+.nav ul li .loc_7{ background:url(../img/8.png) no-repeat scroll 20px 12px;}
+.nav ul li a:hover{background-color:#DEF2C6; color:#666666;}
+
+.nav ul li .loc_8:hover{background:#DEF2C6;}
+.nav ul li .curr{ background: #3baa24; color:#fff;}
+.nav ul li .curr i{ color:#fff;}
+
+
+
+
+
+
+
+
+
+
+

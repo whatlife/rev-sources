@@ -1,0 +1,52 @@
+
+/* line 15, scss/authorized.scss */
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+    components
+ */
+/* line 59, scss/authorized.scss */
+.tab .tab-btn {
+  min-height: 14px;
+  width:550px;
+  margin:0 auto;
+}
+/* line 61, scss/authorized.scss */
+.tab .tab-btn > li {
+  width: 50%;
+  height: 64px;
+  float: left;
+}
+/* line 66, scss/authorized.scss */
+.tab .tab-btn > li > a {
+  display: block;
+  width: 100%;
+  padding: 35px 0 8px;
+  text-align: center;
+  font-size: 16px;
+  color: #4d4d4d;
+  border-bottom: 1px solid #e2e4e5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 87, scss/authorized.scss */
+.tab .tab-btn .active a {
+  color: #8abc26;
+  border-bottom-color: #8abc26;
+}
+/* line 92, scss/authorized.scss */
+.tab .tab-panel {
+  position: relative;
+  padding: 13px 0 0 20px;
+}

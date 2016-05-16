@@ -1,0 +1,7 @@
+div.loading{
+   	  background-position: center;
+   	  background:url(../img/loading.gif) no-repeat 50% 50%;
+   	  height:25px;
+   	  line-height:25px;
+   	  padding-left:30px;
+   }

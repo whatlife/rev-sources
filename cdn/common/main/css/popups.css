@@ -1,0 +1,163 @@
+body{ 
+font-size:12px; font-family:Microsoft Yahei,"ËÎÌו",Arial, Helvetica, sans-serif;color:#666666;background:#e5e5e5 url(../images/bpbg.jpg) center top no-repeat;}
+html, body, div, span, h1, h2, h3, h4, h5, h6, em, img, strong, sub, sup, tt,dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td,ul,li,p,a{ margin: 0; padding: 0;  }
+.cbody{ margin:0 auto;width:982px; position:relative;background:#FFF;}
+input,select,textarea{ vertical-align:middle;}
+img{ border:0;}
+ul,li{ list-style-type:none;}
+a:link,a:visited{
+text-decoration:none;color:#010101;}
+a:hover{text-decoration:none;}
+.overhide{overflow:hidden;text-indent:-100em; }
+.clear {clear: both;}
+.clearfix:after {clear: both;content: ' ';display: block;font-size: 0;line-height: 0;visibility: hidden;width: 0;height: 0;}
+.clearfix{zoom:1}
+.prompt{
+    font-size: 16px;
+    padding: 68px 0 0 80px;
+}
+.verification{
+    margin-top: 28px;
+    padding-left:80px;
+    font-size: 16px;
+    display: block;
+}
+.verification-text{
+    float:left;
+    line-height: 45px;
+    margin-right: 25px;
+}
+.verification input.failure-massage{
+    width:135px;
+    height:36px;
+    float:left;
+    border-radius: 4px;
+    margin-top: 3px;
+    border: 1px solid #f78181;
+}
+.verification input.success-massage{
+    width:125px;
+    height:38px;
+    float:left;
+    
+    border: 1px solid #dedede;
+    padding-left: 10px;
+    color:#c2c2c2;
+    font-size: 16px;
+    margin-top: 2px;
+    border-radius: 5px;
+    line-height: 38px;
+
+}
+.re-send{
+    float:left;
+    margin-left:15px;
+    width: 145px;
+    height: 45px;
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: 14px;
+    background-image: url(../images/re-send-back.png);
+}
+.re-send a{
+    color: #fbfbfb;
+    font-size: 14px;
+}
+.re-send a:hover{
+    text-decoration: none;
+}
+
+.re-send-success{
+    float:left;
+    margin-left:15px;
+    width: 145px;
+    height: 45px;
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    
+    
+    background-image: url(../images/re-send-success.png);
+}
+.re-send-success a{
+    color: #c6c5c6;
+    cursor:default;
+    font-size: 14px;
+}
+
+
+.re-send img{
+    
+}
+
+.warn{
+    float: right;
+    margin-right: 45px;
+    display: block;
+    margin-top: 10px; 
+    background-image: url(../images/warn.png);
+    width: 21px;
+    height: 21px;
+}
+.ver-warn{
+    display: block;
+
+
+}
+.ver-warn span{
+    display: block;
+    font-size: 14px;
+    color: #fe7373;
+    margin-left: 155px;
+    line-height: 12px;
+}
+body .layui-layer-iframe .layui-layer-btn, .layui-layer-page .layui-layer-btn{
+    padding-top: 0px;
+    margin-top: -5px;
+}
+body .layui-layer-molv .layui-layer-title{
+    background-image:url(../images/single.png);
+    background-repeat: repeat;
+    width:505px;
+    height:45px;
+    font-size: 26px;
+    padding: 17px 0 0 20px;
+    letter-spacing: 3px;
+    text-shadow:0 1px 1px rgba(0,0,0,0.3);
+
+}
+body .layui-layer-setwin a{
+    background-image:url(../images/close.png);
+    width:16px;
+    height:17px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+body .layui-layer-btn{
+    float:right;
+    padding-right: 20px;
+}
+body .layui-layer-molv .layui-layer-btn a{
+    background-color: #fff;
+    background-image: url(../images/button-sure.png);
+    width:115px;
+    height:49px;
+    padding: 0px;
+    margin:0px;
+    margin-left:20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 49px;
+    font-weight: normal;
+    text-shadow:0 1px 1px rgba(0,0,0,0.3);
+}
+body .layui-layer-molv .layui-layer-btn .layui-layer-btn1{
+    background-color: #fff;
+    background-image: url(../images/button-cancel.png);
+    width:115px;
+    height:49px;
+
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+table { border-collapse: collapse; border-spacing:0;width:100%;}
+input, button { vertical-align: middle; border: none; }
+button {cursor:pointer; }
+a{text-decoration:none; cursor:pointer;color:#666666} a:hover{text-decoration:none; }
+ol, ul, dl, li{ list-style:none outside none; vertical-align:bottom;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{clear:both;}
+.con{ width:100%;}
+.center-con{ 
+	background-color:#fff; 
+	width:1200px; 
+	border:1px solid #c6d4c3; 
+	padding:10px 20px 15px; 
+	margin:0 auto 30px auto;
+	position: relative;
+	min-height: 400px;
+}
+.ri_date{background-color:#fff; width:960px; border:1px solid #c6d4c3; padding:10px 20px 15px; position: relative; min-height:500px;}
+
+.center-con .nocontext{background:url(../img/zhanwu.png) no-repeat scroll 525px 70px }
+
+.add a{padding:0 3px;height:30px; width:86px; display:block; background-color:#7AD663; line-height:30px; text-align:center; color:#ffffff; margin-top:10px;}
+.add a:hover{background-color:#ffc107; border-bottom:1px solid #ffc107; color:#fff;}
+/*按钮*/
+a.btn-normal{ width:140px;height:36px;line-height:36px;}
+a.btn-cancel{ width:70px;background:#e0e0e0;color:#666666;border:1px solid #cccccc;}
+.btn_icon_link{  color:#7AD663; width:90px;height:36px;line-height:36px;display:inline-block;text-align:center;margin:0 10px;}
+.btn_icon_link i.icon{ color:#7AD663;margin-right:7px;}
+.link-normal{ color:#53B0CC;line-height:16px;text-decoration:underline ;}
+a.link-normal:hover{ color:#fb9614;}
+/*状态*/
+.sys-state{ width:100%;margin:-25px 0 15px 0;height: 46px;line-height: 46px; background:#FCF8E3 ;font-size:16px;border-bottom:1px solid #dddddd;}
+.sys-state .state-con{ width:1200px;margin:0 auto; }
+.sys-state i{ float:left;text-align:center;height:46px;width: 46px;color:#3baa24 ;line-height: 46px;}

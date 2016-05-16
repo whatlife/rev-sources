@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Microsoft Yahei,Verdana,Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	zoom: 1;
+}
+img {
+	border: none;
+}
+a {
+	color: #999;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #28a7e1;
+	text-decoration: none;
+}
+div.site-top {
+    height: 32px;
+    line-height: 32px;
+    background: #f3f3f3;
+    padding: 0 20px;
+}
+span.top_logo {
+    color: #28a7e1;
+    padding-right: 15px;
+    border-right: 1px solid #d4dcdf;
+}
+span.site-op {
+    padding: 0 10px;
+    color: #FF6C00;
+}
+span.site-op a {
+    margin-right: 10px;
+}
+span.site-op a.login {
+	color: #FF6C00;
+}
+span.site-op .dropdown-menu a {
+    margin-right: 0;
+}
+span.site-user {
+    position: absolute;
+    right: 20px;
+}
+span.site-user a {
+    font-size: 12px;
+}
+span.site-user span.dropdown {
+    margin-left: 10px;
+}
+span.dropdown a.site-a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    background: url(../images/down.png) right center no-repeat;
+    padding-right: 12px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+span.dropdown a.site-a img {
+	margin-right: 3px;
+}
+span.dropdown ul.dropdown-menu {
+    min-width: 100px;
+    top: 26px;
+    top: 10px\9;
+    *top: 26px;
+    left: 50%;
+    margin-top:0px;
+    margin-left: -50px;
+    *margin-left: -60px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+span.dropdown ul.dropdown-menu li {}
+span.dropdown ul.dropdown-menu li a {
+    color: #999;
+    padding: 5px 15px;
+	font-size: 12px;
+	text-align: center;
+}
+/* 底部 start */
+.foot {
+	height: 60px;
+	line-height: 60px;
+	width: 980px;
+	margin: 0px auto;
+	color: #A0A3B1;
+	font-size: 12px;
+	text-align: center;
+}
+.foot_left li {
+	float: left;
+}
+.foot_left li a {
+	color: #A0A3B1;
+	margin-right: 10px;
+}
+.foot_left li a:hover, .foot_left li a:focus {
+	text-decoration: none;
+	color: #28a7e1;
+}
+.foot p {
+	margin: 0;
+}
+.real_foot {
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	margin-left: -490px;
+	z-index: 999;
+}
+.real_foot .foot_left li a, .real_foot p {
+	color: #fff;
+}
+.assess_foot {
+	width: 100%;
+	background: #373e44;
+}
+.assess_foot .foot_left a, .assess_foot p {
+	color: #fff;
+}
+/* 底部 end */
+
+/*反馈浮动 begin*/
+.icon_float {
+  display: inline-block;
+  background: url(../images/icons_float.png);
+}
+.icon-uptop, .icon-feedback, .icon-custom {
+  width: 40px;
+  height: 40px;
+}
+.icon-uptop {
+  background-position: 0 -1709px;
+  background-repeat: no-repeat;
+}
+.icon-feedback {
+  background-position: 0 -918px;
+  background-repeat: no-repeat;
+}
+.icon-custom {
+	background-position: 0 -1815px;
+  	background-repeat: no-repeat;
+}
+.wgt-floatip {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+}
+.wgt-floatip a, .wgt-floatip span {
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+}
+.wgt-floatip .uptop > a, .wgt-floatip .feedback > a, .wgt-floatip .custom > a {
+  display: block;
+  background-color: #28a7e1;
+}
+.wgt-floatip .uptop > span, .wgt-floatip .feedback > span, .wgt-floatip .custom > span {
+  width: 40px;
+  display: none;
+  background: #5bbd2b;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 2px;
+}
+.wgt-floatip .uptop:hover a, .wgt-floatip .feedback:hover a, .wgt-floatip .custom:hover a {
+  display: none;
+  outline-offset: 0;
+}
+.wgt-floatip a:focus{
+  outline-offset: 0;
+}
+.wgt-floatip .uptop:hover span, .wgt-floatip .feedback:hover span, .wgt-floatip .custom:hover span {
+  display: block;
+}
+.wgt-floatip .custom {
+ margin: 10px 0;
+}
+/*反馈浮动 end*/

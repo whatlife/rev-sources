@@ -1,0 +1,2928 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* line 9, scss/partials/_reset.scss */
+html {
+  font-size: 625%;
+}
+
+/* line 17, scss/partials/_reset.scss */
+body {
+  margin: 0;
+}
+
+/* line 31, scss/partials/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 52, scss/partials/_reset.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 61, scss/partials/_reset.scss */
+p, h2, h3 {
+  margin: 0;
+}
+
+/* line 70, scss/partials/_reset.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 80, scss/partials/_reset.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 92, scss/partials/_reset.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 99, scss/partials/_reset.scss */
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+/* line 112, scss/partials/_reset.scss */
+abbr[title] {
+  border-bottom: pxToRem(1) dotted;
+}
+
+/* line 120, scss/partials/_reset.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 129, scss/partials/_reset.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 138, scss/partials/_reset.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 147, scss/partials/_reset.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 156, scss/partials/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 164, scss/partials/_reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 172, scss/partials/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 176, scss/partials/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 187, scss/partials/_reset.scss */
+img {
+  border: 0;
+}
+
+/* line 195, scss/partials/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 206, scss/partials/_reset.scss */
+figure {
+  margin: 1em pxToRem(40);
+}
+
+/* line 214, scss/partials/_reset.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 224, scss/partials/_reset.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 232, scss/partials/_reset.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 255, scss/partials/_reset.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 272, scss/partials/_reset.scss */
+button {
+  overflow: visible;
+}
+
+/* line 283, scss/partials/_reset.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 296, scss/partials/_reset.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 310, scss/partials/_reset.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 319, scss/partials/_reset.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 330, scss/partials/_reset.scss */
+input {
+  line-height: normal;
+}
+
+/* line 342, scss/partials/_reset.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 356, scss/partials/_reset.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 367, scss/partials/_reset.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 382, scss/partials/_reset.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 391, scss/partials/_reset.scss */
+fieldset {
+  border: pxToRem(1) solid #c0c0c0;
+  margin: 0 pxToRem(2);
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 402, scss/partials/_reset.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 413, scss/partials/_reset.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 422, scss/partials/_reset.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 433, scss/partials/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 438, scss/partials/_reset.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 6, scss/partials/_base.scss */
+li, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, scss/partials/_base.scss */
+body {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+/* line 17, scss/partials/_base.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 22, scss/partials/_base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 26, scss/partials/_base.scss */
+button {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/* line 34, scss/partials/_base.scss */
+button:active {
+  outline: 0;
+}
+
+/* line 38, scss/partials/_base.scss */
+a > img {
+  border: 0;
+}
+
+/* line 42, scss/partials/_base.scss */
+img {
+  max-width: 100%;
+}
+
+
+.row-container,
+.row-inner {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  min-width: 1200px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.row-container:before, .row-container:after,
+.row-inner:before,
+.row-inner:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.row-container:after,
+.row-inner:after {
+  clear: both;
+}
+
+/* line 16, scss/partials/_layout.scss */
+.row-inner {
+  width: 1200px;
+}
+
+/****** 
+	box layout
+*/
+/* line 23, scss/partials/_layout.scss */
+.box-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+/* line 54, scss/partials/_layout.scss */
+.box-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+/* line 85, scss/partials/_layout.scss */
+.box-item, .box-items > * {
+  display: inline-block;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+@-moz-document url-prefix() {
+  /* line 94, scss/partials/_layout.scss */
+  .flex-row {
+    width: 100%;
+    -moz-box-sizing: border-box;
+  }
+}
+/* line 100, scss/partials/_layout.scss */
+.row-header {
+  position: relative;
+  z-index: 3;
+}
+
+/* line 1, scss/partials/_icons.scss */
+.icon {
+  display: inline-block;
+  background: url('images/icons.png?s471d574aa0');
+}
+
+/* line 7, scss/partials/_icons.scss */
+.icon-nav-return {
+  background-position: 0 -448px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 42px;
+}
+
+/* line 12, scss/partials/_icons.scss */
+.icon-replay {
+  background-position: 0 -37px;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+}
+
+/* line 19, scss/partials/_icons.scss */
+.icon-home {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+}
+
+/* line 25, scss/partials/_icons.scss */
+.icon-user {
+  background-position: 0 -828px;
+  background-repeat: no-repeat;
+}
+
+/* line 29, scss/partials/_icons.scss */
+.icon-sound {
+  background-position: 0 -762px;
+  background-repeat: no-repeat;
+}
+
+/* line 33, scss/partials/_icons.scss */
+.icon-mobile-download {
+  background-position: 0 -281px;
+  background-repeat: no-repeat;
+}
+
+/* line 36, scss/partials/_icons.scss */
+.icon-circle-play {
+  background-position: 0 -151px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 43, scss/partials/_icons.scss */
+.icon-vertical-list {
+  background-position: 0 -859px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 48, scss/partials/_icons.scss */
+.icon-cross-list {
+  background-position: 0 -181px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 53, scss/partials/_icons.scss */
+.icon-mode-pic {
+  background-position: 0 -414px;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 58, scss/partials/_icons.scss */
+.icon-mode-pic.curr {
+  background-position: 0 -380px;
+  background-repeat: no-repeat;
+}
+
+/* line 61, scss/partials/_icons.scss */
+.icon-mode-lis {
+  background-position: 0 -346px;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 66, scss/partials/_icons.scss */
+.icon-del {
+  background-position: 0 -216px;
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 15px;
+}
+
+/* line 71, scss/partials/_icons.scss */
+.icon-mode-lis.curr {
+  background-position: 0 -312px;
+  background-repeat: no-repeat;
+}
+
+/* line 74, scss/partials/_icons.scss */
+.icon-btn {
+  background-position: 0 -74px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 27px;
+}
+
+/* line 79, scss/partials/_icons.scss */
+.icon-question-mask {
+  background-position: 0 -505px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 1, scss/partials/_buttons.scss */
+.btn {
+  border: 0;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #90c72e;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzkwYzcyZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzY2YjIxOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #90c72e), color-stop(100%, #66b219));
+  background-image: -webkit-linear-gradient(#90c72e, #66b219);
+  background-image: linear-gradient(#90c72e, #66b219);
+}
+/* line 9, scss/partials/_buttons.scss */
+.btn:hover {
+  text-decoration: none;
+}
+/* line 12, scss/partials/_buttons.scss */
+.btn:disabled {
+  cursor: default;
+}
+
+/* line 16, scss/partials/_buttons.scss */
+.btn-1 {
+  border-radius: 3px;
+  background: #f88529;
+  padding: 3px 9px;
+}
+/* line 20, scss/partials/_buttons.scss */
+.btn-1:hover {
+  text-decoration: underline;
+}
+
+/* line 4, scss/partials/_form.scss */
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+  line-height: normal;
+}
+
+/* line 9, scss/partials/_form.scss */
+select, input[type="text"], input[type="password"], input[type="date"], textarea {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  vertical-align: middle;
+  outline: none;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 20, scss/partials/_form.scss */
+select.yoya-placeholder, input[type="text"].yoya-placeholder, input[type="password"].yoya-placeholder, input[type="date"].yoya-placeholder, textarea.yoya-placeholder {
+  color: #c2c2c2;
+}
+/* line 23, scss/partials/_form.scss */
+select::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #c2c2c2;
+}
+/* line 27, scss/partials/_form.scss */
+select:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="date"]:-moz-placeholder, textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c2c2c2;
+}
+/* line 31, scss/partials/_form.scss */
+select::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="date"]::-moz-placeholder, textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c2c2c2;
+}
+/* line 35, scss/partials/_form.scss */
+select:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #c2c2c2;
+}
+
+/* line 40, scss/partials/_form.scss */
+input[type="text"], input[type="password"], input[type="date"] {
+  border: 1px solid #dedede;
+  background: #f0eff0;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 11px 11px;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-family: "Microsoft YaHei",Helvetica, Arial, sans-serif;
+}
+
+/* line 51, scss/partials/_form.scss */
+textarea {
+  overflow: auto;
+  resize: none;
+  width: 100%;
+}
+
+/* line 57, scss/partials/_form.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 66, scss/partials/_form.scss */
+.form-footer {
+  position: absolute;
+  bottom: -6px;
+  height: 10px;
+  overflow: hidden;
+  width: 100%;
+  background: url(images/form-shadow.png);
+  background-size: 100%;
+}
+
+/* line 5, scss/partials/_components.scss */
+body {
+  font-family: "Microsoft YaHei",Helvetica, Arial, sans-serif;
+}
+
+/* line 9, scss/partials/_components.scss */
+body {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+/* logo  */
+/* line 16, scss/partials/_components.scss */
+.wgt-box {
+  background-color: #efefef;
+  min-height: 813px;
+  padding-top: 25px;
+  /*********************/
+}
+/* line 20, scss/partials/_components.scss */
+.wgt-box .row-inner {
+  min-width: 1162px;
+  width: 1162px;
+  background: #fff;
+  border: 1px solid #c6d4c3;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+/* line 29, scss/partials/_components.scss */
+.wgt-box .box-header {
+  position: relative;
+  width: 1100px;
+  height: 66px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f0f0f0;
+  margin-bottom: 1px;
+}
+/* line 37, scss/partials/_components.scss */
+.wgt-box .box-title {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 14px 20px;
+  font-size: 20px;
+  color: #6fae26;
+}
+/* line 45, scss/partials/_components.scss */
+.wgt-box .box-side-menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 20px 14px 0;
+}
+/* line 50, scss/partials/_components.scss */
+.wgt-box .box-side-menu a {
+  display: inline-block;
+  cursor: pointer;
+}
+/* line 54, scss/partials/_components.scss */
+.wgt-box .box-side-menu .icon-mode-pic {
+  padding-right: 14px;
+}
+/* line 58, scss/partials/_components.scss */
+.wgt-box .box-content {
+  min-height: 400px;
+}
+/* line 61, scss/partials/_components.scss */
+.wgt-box .box-footer {
+  width: 1100px;
+  padding: 30px 15px 0 15px;
+  margin: 0 auto;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-box .box-footer:before, .wgt-box .box-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-box .box-footer:after {
+  clear: both;
+}
+/* line 66, scss/partials/_components.scss */
+.wgt-box .box-footer .box-opt-1 {
+  float: left;
+  margin-left: 22px;
+}
+/* line 69, scss/partials/_components.scss */
+.wgt-box .box-footer .box-opt-1 .btn-1 {
+  margin-left: 23px;
+  vertical-align: middle;
+}
+/* line 73, scss/partials/_components.scss */
+.wgt-box .box-footer .box-opt-1 input {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 81, scss/partials/_components.scss */
+.wgt-box .pagination {
+  float: right;
+}
+/* line 84, scss/partials/_components.scss */
+.wgt-box .pagination .num-recode {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+/* line 88, scss/partials/_components.scss */
+.wgt-box .pagination .num-recode .count {
+  text-align: center;
+  color: #a0cf73;
+}
+/* line 93, scss/partials/_components.scss */
+.wgt-box .pagination .page-num {
+  float: left;
+}
+/* line 95, scss/partials/_components.scss */
+.wgt-box .pagination .page-num a {
+  background-color: #fff;
+  width: 23px;
+  height: 23px;
+  border-radius: 4px;
+  line-height: 23px;
+  text-align: center;
+  display: block;
+  color: #000;
+  float: left;
+  margin-left: 5px;
+  border: 1px solid #ccc;
+}
+/* line 108, scss/partials/_components.scss */
+.wgt-box .pagination .page-num a.select {
+  background-color: #82c23c;
+  color: #FFF;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+/* line 116, scss/partials/_components.scss */
+.wgt-box .pagination .goto {
+  float: right;
+  margin-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 30px;
+}
+/* line 122, scss/partials/_components.scss */
+.wgt-box .pagination .goto input[type="text"] {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 4px;
+}
+/* line 129, scss/partials/_components.scss */
+.wgt-box .pagination .goto .go {
+  margin-left: 10px;
+}
+/* line 131, scss/partials/_components.scss */
+.wgt-box .pagination .goto .go a {
+  color: #82c23b;
+}
+
+/* IE7 */
+/* line 141, scss/partials/_components.scss */
+* + html .pagination {
+  width: 420px;
+}
+
+/* line 146, scss/partials/_components.scss */
+* + html .wgt-box .pagination .goto input[type="text"] {
+  width: 10px;
+  height: 10px;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 4px;
+}
+
+/*  public table css style */
+/* line 159, scss/partials/_components.scss */
+.public-table caption {
+  hegiht: 35px;
+}
+/* line 161, scss/partials/_components.scss */
+.public-table caption .collection-title {
+  color: #6fae26;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  float: left;
+  padding: 15px;
+}
+/* line 170, scss/partials/_components.scss */
+.public-table thead {
+  height: 45px;
+  line-height: 45px;
+  background-color: #f0f0f0;
+}
+/* line 174, scss/partials/_components.scss */
+.public-table thead th {
+  height: 45px;
+  text-align: center;
+  color: #6fae26;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 182, scss/partials/_components.scss */
+.public-table td {
+  font-size: 14px;
+  color: #666666;
+}
+/* line 186, scss/partials/_components.scss */
+.public-table .td-input {
+  text-align: center;
+  width: 60px;
+}
+/* line 190, scss/partials/_components.scss */
+.public-table .td-title {
+  width: 242px;
+}
+/* line 192, scss/partials/_components.scss */
+.public-table .td-title .circle {
+  float: left;
+  margin-top: 15px;
+}
+/* line 198, scss/partials/_components.scss */
+.public-table .td-title .title {
+  width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  height: 45px;
+  line-height: 43px;
+  float: left;
+}
+/* line 207, scss/partials/_components.scss */
+.public-table .td-title .title a {
+  color: #666666;
+}
+/* line 212, scss/partials/_components.scss */
+.public-table .td-num {
+  width: 160px;
+  text-align: right;
+}
+/* line 216, scss/partials/_components.scss */
+.public-table .td-time {
+  width: 520px;
+  text-align: center;
+}
+/* line 220, scss/partials/_components.scss */
+.public-table .td-ope {
+  text-align: center;
+}
+/* line 222, scss/partials/_components.scss */
+.public-table .td-ope a {
+  color: #37b8e9;
+}
+
+/* line 1, scss/partials/_wgt-header.scss */
+.wgt-header {
+  background: #fff;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-header:before, .wgt-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-header:after {
+  clear: both;
+}
+/* line 4, scss/partials/_wgt-header.scss */
+.wgt-header .logo {
+  float: left;
+  margin: 24px 0 10px 0;
+}
+/* line 7, scss/partials/_wgt-header.scss */
+.wgt-header .logo a {
+  display: block;
+  width: 186px;
+  height: 37px;
+  margin-right: 20px;
+}
+/* line 13, scss/partials/_wgt-header.scss */
+.wgt-header .logo .logo-img {
+  width: 53px;
+  height: 37px;
+  background: url(images/logo-bg.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 22, scss/partials/_wgt-header.scss */
+.wgt-header .logo .logo-text {
+  width: 69px;
+  height: 37px;
+  background: url(images/logo-main.png) no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 32, scss/partials/_wgt-header.scss */
+.wgt-header .menu-site {
+  float: left;
+  margin-top: 34px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-header .menu-site:before, .wgt-header .menu-site:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-header .menu-site:after {
+  clear: both;
+}
+/* line 36, scss/partials/_wgt-header.scss */
+.wgt-header .menu-site li {
+  float: left;
+  padding: 0 17px;
+}
+/* line 40, scss/partials/_wgt-header.scss */
+.wgt-header .menu-site a {
+  display: block;
+  color: #333;
+  font-size: 20px;
+  padding: 0 3px 8px 3px;
+}
+/* line 45, scss/partials/_wgt-header.scss */
+.wgt-header .menu-site a.curr {
+  border-bottom: 3px solid #f88529;
+}
+/* line 48, scss/partials/_wgt-header.scss */
+.wgt-header .menu-site a:hover {
+  text-decoration: none;
+}
+/* line 53, scss/partials/_wgt-header.scss */
+.wgt-header .menu-user {
+  float: right;
+  margin-top: 37px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-header .menu-user:before, .wgt-header .menu-user:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-header .menu-user:after {
+  clear: both;
+}
+/* line 57, scss/partials/_wgt-header.scss */
+.wgt-header .menu-user li {
+  float: left;
+  padding: 0 12px;
+}
+/* line 61, scss/partials/_wgt-header.scss */
+.wgt-header .menu-user i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+/* line 67, scss/partials/_wgt-header.scss */
+.wgt-header .menu-user a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  font-size: 16px;
+  padding: 0 3px;
+}
+/* line 73, scss/partials/_wgt-header.scss */
+.wgt-header .menu-user a:hover {
+  text-decoration: none;
+}
+
+/* line 1, scss/partials/_wgt-404.scss */
+.wgt-404 {
+  height: 475px;
+  background-color: #efefef;
+  padding-top: 92px;
+  text-align: center;
+}
+/* line 6, scss/partials/_wgt-404.scss */
+.wgt-404 .row-inner {
+  width: auto;
+  display: inline-block;
+  height: 218px;
+  min-width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  overflow: hidden;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 17, scss/partials/_wgt-404.scss */
+.wgt-404 .row-inner .role {
+  font-size: 0;
+  line-height: 0;
+  margin-top: -80px;
+  margin-right: 25px;
+  float: left;
+}
+/* line 24, scss/partials/_wgt-404.scss */
+.wgt-404 .row-inner .con {
+  overflow: hidden;
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+/* line 30, scss/partials/_wgt-404.scss */
+.wgt-404 .row-inner h2, .wgt-404 .row-inner h3 {
+  margin: 0;
+  color: #e88000;
+  font-weight: normal;
+}
+/* line 36, scss/partials/_wgt-404.scss */
+.wgt-404 .text-1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+/* line 40, scss/partials/_wgt-404.scss */
+.wgt-404 .text-2 {
+  font-size: 24px;
+  padding-top: 15px;
+}
+/* line 44, scss/partials/_wgt-404.scss */
+.wgt-404 .opts {
+  margin: 0px;
+  padding-top: 20px;
+}
+/* line 48, scss/partials/_wgt-404.scss */
+.wgt-404 .opts a {
+  font-size: 18px;
+  color: #77bd28;
+  padding-right: 12px;
+  line-height: 24px;
+}
+/* line 53, scss/partials/_wgt-404.scss */
+.wgt-404 .opts a span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+/* line 58, scss/partials/_wgt-404.scss */
+.wgt-404 .opts a + a {
+  border-left: 2px solid #77bd28;
+  padding: 0 12px;
+}
+/* line 63, scss/partials/_wgt-404.scss */
+.wgt-404 .icon {
+  vertical-align: middle;
+}
+
+
+
+
+
+
+/* line 1, scss/partials/_wgt-login.scss */
+.wgt-login, .wgt-registry {
+  background: url(images/bg-login-0.jpg);
+  background-size: cover;
+}
+/* line 5, scss/partials/_wgt-login.scss */
+.wgt-login .row-inner, .wgt-registry .row-inner {
+  background: url(images/bg-login-1.png) 72px 108px no-repeat;
+  min-height: 820px;
+}
+/* line 9, scss/partials/_wgt-login.scss */
+.wgt-login .wgt-form, .wgt-registry .wgt-form {
+  margin: 90px 30px 90px 710px;
+  background: #fff;
+  position: relative;
+  width: 400px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+/* line 17, scss/partials/_wgt-login.scss */
+.wgt-login .form-header, .wgt-registry .form-header {
+  background-color: #95ca31;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk1Y2EzMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhhYzUyYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #95ca31), color-stop(100%, #8ac52c));
+  background-image: -webkit-linear-gradient(#95ca31, #8ac52c);
+  background-image: linear-gradient(#95ca31, #8ac52c);
+  color: #fff;
+  padding: 16px 17px 12px 17px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-login .form-header:before, .wgt-login .form-header:after, .wgt-registry .form-header:before, .wgt-registry .form-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-login .form-header:after, .wgt-registry .form-header:after {
+  clear: both;
+}
+/* line 23, scss/partials/_wgt-login.scss */
+.wgt-login .form-header .form-title, .wgt-registry .form-header .form-title {
+  float: left;
+  font-size: 26px;
+  text-shadow: 1px 1px 1px #7eba27;
+}
+/* line 28, scss/partials/_wgt-login.scss */
+.wgt-login .form-header .title-tip, .wgt-registry .form-header .title-tip {
+  float: right;
+  margin-top: 13px;
+}
+/* line 32, scss/partials/_wgt-login.scss */
+.wgt-login .form-header .title-link, .wgt-registry .form-header .title-link {
+  color: #ffff00;
+  text-decoration: underline;
+}
+/* line 37, scss/partials/_wgt-login.scss */
+.wgt-login .form-body, .wgt-registry .form-body {
+  padding: 23px 17px 20px 17px;
+}
+/* line 40, scss/partials/_wgt-login.scss */
+.wgt-login .form-tip-error, .wgt-registry .form-tip-error {
+  text-align: center;
+  background: #ffd3d3;
+  color: #ff1e1e;
+  position: absolute;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 13px;
+}
+/* line 49, scss/partials/_wgt-login.scss */
+.wgt-login .form-group, .wgt-registry .form-group {
+  position: relative;
+  margin-top: 18px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-login .form-group:before, .wgt-login .form-group:after, .wgt-registry .form-group:before, .wgt-registry .form-group:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-login .form-group:after, .wgt-registry .form-group:after {
+  clear: both;
+}
+/* line 54, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-label, .wgt-login .form-group .form-input, .wgt-registry .form-group .form-label, .wgt-registry .form-group .form-input {
+  float: left;
+}
+/* line 57, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-label, .wgt-registry .form-group .form-label {
+  color: #666;
+  margin: 10px 0 0;
+  width: 70px;
+}
+/* line 64, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input input, .wgt-registry .form-group .form-input .input input {
+  width: 275px;
+}
+/* line 68, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input.error input, .wgt-registry .form-group .form-input .input.error input {
+  border: 1px solid #ff6666;
+}
+/* line 71, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input.error .help-tip, .wgt-registry .form-group .form-input .input.error .help-tip {
+  display: block;
+}
+/* line 76, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input.success .help-tip, .wgt-registry .form-group .form-input .input.success .help-tip {
+  display: block;
+}
+/* line 82, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode input, .wgt-registry .form-group .form-input .input-checkcode input {
+  width: 123px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 87, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode, .wgt-registry .form-group .form-input .input-checkcode .checkcode {
+  display: inline-block;
+  vertical-align: middle;
+  width: 140px;
+  height: 38px;
+  margin-left: 8px;
+  border: 1px solid #e0e0e0;
+  background: #f0eef0;
+  border-radius: 2px;
+}
+/* line 96, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode .checkcode-img, .wgt-registry .form-group .form-input .input-checkcode .checkcode .checkcode-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 84px;
+  height: 40px;
+}
+/* line 102, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode .reload-icon, .wgt-registry .form-group .form-input .input-checkcode .checkcode .reload-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 19px;
+  height: 20px;
+  margin-left: 20px;
+  background-position: 0 -116px;
+  background-repeat: no-repeat;
+}
+/* line 110, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode.phone-checkcode, .wgt-registry .form-group .form-input .input-checkcode .checkcode.phone-checkcode {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #999;
+  background: #d2d2d1;
+  background: -webkit-linear-gradient(#dfdfde, #d2d2d1);
+  background: linear-gradient(#dfdfde, #d2d2d1);
+}
+/* line 116, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode.phone-checkcode span, .wgt-registry .form-group .form-input .input-checkcode .checkcode.phone-checkcode span {
+  color: #666;
+  line-height: 40px;
+}
+/* line 122, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .input-checkcode .checkcode.phone-checkcode-disabled, .wgt-registry .form-group .form-input .input-checkcode .checkcode.phone-checkcode-disabled {
+  border: 1px solid #e0e0e0;
+  background: #f0eef0;
+  cursor: default;
+}
+/* line 129, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .help-tip, .wgt-registry .form-group .form-input .help-tip {
+  display: none;
+  font-size: 13px;
+}
+/* line 133, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .help-tip p, .wgt-login .form-group .form-input .help-tip i, .wgt-registry .form-group .form-input .help-tip p, .wgt-registry .form-group .form-input .help-tip i {
+  position: absolute;
+}
+/* line 136, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .help-tip p, .wgt-registry .form-group .form-input .help-tip p {
+  color: #ff6666;
+}
+/* line 139, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .help-tip .icon-error, .wgt-registry .form-group .form-input .help-tip .icon-error {
+  right: -8px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-position: 0 -246px;
+  background-repeat: no-repeat;
+}
+/* line 147, scss/partials/_wgt-login.scss */
+.wgt-login .form-group .form-input .help-tip .icon-success, .wgt-registry .form-group .form-input .help-tip .icon-success {
+  right: -8px;
+  top: 10px;
+  width: 19px;
+  height: 20px;
+  display: block;
+  background-position: 0 -793px;
+  background-repeat: no-repeat;
+}
+/* line 159, scss/partials/_wgt-login.scss */
+.wgt-login .form-forget-password, .wgt-registry .form-forget-password {
+  margin-top: 3px;
+  padding-left: 289px;
+  font-size: 13px;
+}
+/* line 163, scss/partials/_wgt-login.scss */
+.wgt-login .form-forget-password a, .wgt-registry .form-forget-password a {
+  color: #99cc33;
+}
+/* line 168, scss/partials/_wgt-login.scss */
+.wgt-login .form-user-confirmed, .wgt-registry .form-user-confirmed {
+  margin-top: 23px;
+  padding-left: 70px;
+  font-size: 13px;
+  color: #666;
+}
+/* line 173, scss/partials/_wgt-login.scss */
+.wgt-login .form-user-confirmed input, .wgt-registry .form-user-confirmed input {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+/* line 177, scss/partials/_wgt-login.scss */
+.wgt-login .form-user-confirmed a, .wgt-registry .form-user-confirmed a {
+  color: #99cc33;
+}
+/* line 181, scss/partials/_wgt-login.scss */
+.wgt-login .form-opts, .wgt-registry .form-opts {
+  padding: 24px 0 30px 71px;
+}
+/* line 183, scss/partials/_wgt-login.scss */
+.wgt-login .form-opts .btn, .wgt-registry .form-opts .btn {
+  width: 220px;
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 2px;
+}
+/* line 191, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type, .wgt-registry .other-login-type {
+  border-top: 1px solid #dcdcdc;
+  padding: 10px 0 15px 0;
+  color: #bdbdbd;
+  font-size: 13px;
+  padding-left: 145px;
+}
+/* line 197, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type span, .wgt-registry .other-login-type span {
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 201, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .icon, .wgt-registry .other-login-type .icon {
+  vertical-align: bottom;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+}
+/* line 207, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareQQ, .wgt-registry .other-login-type .shareQQ {
+  width: 22px;
+  background-position: 0 -577px;
+  background-repeat: no-repeat;
+}
+/* line 210, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareQQ:hover, .wgt-registry .other-login-type .shareQQ:hover {
+  background-position: 0 -540px;
+  background-repeat: no-repeat;
+}
+/* line 214, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareWeixin, .wgt-registry .other-login-type .shareWeixin {
+  background-position: 0 -688px;
+  background-repeat: no-repeat;
+}
+/* line 216, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareWeixin:hover, .wgt-registry .other-login-type .shareWeixin:hover {
+  background-position: 0 -651px;
+  background-repeat: no-repeat;
+}
+/* line 220, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareWeibo, .wgt-registry .other-login-type .shareWeibo {
+  background-position: 0 -725px;
+  background-repeat: no-repeat;
+}
+/* line 222, scss/partials/_wgt-login.scss */
+.wgt-login .other-login-type .shareWeibo:hover, .wgt-registry .other-login-type .shareWeibo:hover {
+  background-position: 0 -614px;
+  background-repeat: no-repeat;
+}
+
+/* line 240, scss/partials/_wgt-login.scss */
+.wgt-registry .row-inner {
+  background: none;
+  min-height: 820px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-registry .row-inner:before, .wgt-registry .row-inner:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-registry .row-inner:after {
+  clear: both;
+}
+/* line 245, scss/partials/_wgt-login.scss */
+.wgt-registry .wgt-form {
+  margin: 90px 30px 90px 80px;
+  float: left;
+}
+/* line 249, scss/partials/_wgt-login.scss */
+.wgt-registry .register-desc {
+	width: 512px;
+	height: 512px;
+	background: url(../images/login_bg.png) no-repeat;
+	margin: 100px 0px 90px 30px;
+	float: left;
+}
+/* line 257, scss/partials/_wgt-login.scss */
+.wgt-registry .join-now-link {
+  width: 291px;
+  height: 50px;
+  background: url(images/joinNowLink.png) no-repeat;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+/* line 265, scss/partials/_wgt-login.scss */
+.wgt-registry .form-opts .btn {
+  width: 210px;
+}
+
+/* line 1, scss/partials/_wgt-footer.scss */
+.wgt-footer {
+  height: 184px;
+  background: #4e4e4e;
+}
+/* line 4, scss/partials/_wgt-footer.scss */
+.wgt-footer .row-inner {
+  padding-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 911px;
+  width: 911px;
+  height: 100px;
+  vertical-align: middle;
+}
+/* line 13, scss/partials/_wgt-footer.scss */
+.wgt-footer .col-1 {
+  display: inline-block;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  padding-right: 50px;
+  border-right: 1px solid #404040;
+}
+/* line 21, scss/partials/_wgt-footer.scss */
+.wgt-footer .logo {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(images/yoyaLogo.png);
+  width: 185px;
+  height: 56px;
+}
+/* line 28, scss/partials/_wgt-footer.scss */
+.wgt-footer .col-2 {
+  vertical-align: middle;
+  border-left: 1px solid #5a5a5a;
+  border-right: 1px solid #404040;
+  height: 100px;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+/* line 39, scss/partials/_wgt-footer.scss */
+.wgt-footer .col-2 a {
+  font-size: 14px;
+  color: #b1b1b1;
+}
+/* line 43, scss/partials/_wgt-footer.scss */
+.wgt-footer .slogan {
+  padding-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 16px;
+  color: #77bd28;
+}
+/* line 51, scss/partials/_wgt-footer.scss */
+.wgt-footer .slogan a {
+  display: inline-block;
+  vertical-align: middle;
+  background: url(images/yoyacom.png) no-repeat;
+  width: 150px;
+  height: 15px;
+  margin-right: 10px;
+}
+/* line 59, scss/partials/_wgt-footer.scss */
+.wgt-footer .nav {
+  margin: 10px 0px 8px 0px;
+}
+/* line 62, scss/partials/_wgt-footer.scss */
+.wgt-footer .nav li {
+  display: inline-block;
+  border-left: 1px solid #b1b1b1;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 16px;
+  line-height: 16px;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 71, scss/partials/_wgt-footer.scss */
+.wgt-footer .nav li.us {
+  border-left-width: 0px !important;
+  padding-left: 0px !important;
+}
+/* line 75, scss/partials/_wgt-footer.scss */
+.wgt-footer .nav li a {
+  line-height: 16px;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+/* line 82, scss/partials/_wgt-footer.scss */
+.wgt-footer .copyright {
+  width: 375px;
+  margin: 0;
+  text-align: left;
+  font-size: 12px;
+  color: #b1b1b1;
+}
+/* line 89, scss/partials/_wgt-footer.scss */
+.wgt-footer .col-3 {
+  padding-left: 36px;
+  float: right;
+  border-left: 1px solid #5a5a5a;
+}
+/* line 94, scss/partials/_wgt-footer.scss */
+.wgt-footer .weixin {
+  height: 100px;
+}
+/* line 97, scss/partials/_wgt-footer.scss */
+.wgt-footer .qrcode {
+  float: left;
+  background: url(images/yoyaQRcode.png) no-repeat;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+}
+/* line 104, scss/partials/_wgt-footer.scss */
+.wgt-footer .con {
+  float: right;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 18.5px;
+}
+/* line 110, scss/partials/_wgt-footer.scss */
+.wgt-footer .text-1 {
+  margin: 0;
+  font-size: 16px;
+  color: #77bd28;
+  padding-bottom: 10px;
+}
+/* line 116, scss/partials/_wgt-footer.scss */
+.wgt-footer .text-2 {
+  margin: 0;
+  font-size: 12px;
+  color: #b1b1b1;
+}
+
+/* line 37, scss/partials/_mixin.scss */
+.wgt-index .row-inner:before, .wgt-index .row-inner:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-index .row-inner:after {
+  clear: both;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-index .row-inner .menu:before, .wgt-index .row-inner .menu:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-index .row-inner .menu:after {
+  clear: both;
+}
+/* line 6, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-main {
+  float: left;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-index .row-inner .menu .menu-main:before, .wgt-index .row-inner .menu .menu-main:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-index .row-inner .menu .menu-main:after {
+  clear: both;
+}
+/* line 9, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-main li {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 20px 0 0;
+}
+/* line 13, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-main li a {
+  text-decoration: none;
+  padding: 0 0 10px 0;
+  color: #666;
+  display: block;
+  font-size: 16px;
+}
+/* line 21, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-main li.curr a {
+  border-bottom: 3px solid #f88529;
+  margin-bottom: -3px;
+}
+/* line 28, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-extra {
+  float: right;
+}
+/* line 31, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-extra .movie-create a {
+  display: block;
+  color: #77bd28;
+  line-height: 20px;
+  font-size: 16px;
+  margin: 12px 40px 0 0;
+}
+/* line 40, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .menu .menu-extra .movie-view-more a {
+  display: block;
+  font-size: 16px;
+  margin: 12px 40px 0 0;
+}
+/* line 49, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list {
+  width: 1213px;
+  margin-left: -13px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-index .row-inner .list:before, .wgt-index .row-inner .list:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-index .row-inner .list:after {
+  clear: both;
+}
+/* line 53, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list li {
+  float: left;
+  cursor: pointer;
+  margin: 0 13px;
+  padding: 13px 8px 20px 8px;
+  width: 200px;
+  border-bottom: 5px solid #fff;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+/* line 62, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list li:hover {
+  background: #ededed;
+  border-bottom: 5px solid #77bd28;
+}
+/* line 67, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list h3 {
+  font-size: 15px;
+  color: #2a2a2a;
+  font-weight: bold;
+  margin: 8px 0 2px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 76, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list .author {
+  color: #aaaaaa;
+}
+/* line 78, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list .author a {
+  margin-left: 10px;
+}
+/* line 82, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .list.selected-movies {
+  width: 968px;
+  margin-left: -13px;
+}
+/* line 88, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .selected-movies {
+  width: 948px;
+  float: left;
+}
+/* line 92, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .movie-ranking {
+  width: 230px;
+  float: right;
+  margin-right: 20px;
+}
+/* line 97, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .brand {
+  font-size: 23px;
+  font-weight: normal;
+  margin: 0 30px 0 7px;
+  color: #2a2a2a;
+  padding: 0 0 10px 0;
+}
+/* line 103, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .brand span {
+  font-weight: bold;
+  color: #f88529;
+  font-size: 16px;
+}
+/* line 109, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking {
+  margin-top: 12px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  background: #ededed;
+}
+/* line 114, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-img {
+  width: 100%;
+}
+/* line 118, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-item .ranking-des {
+  width: 100%;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-index .row-inner .ranking .ranking-item .ranking-des:before, .wgt-index .row-inner .ranking .ranking-item .ranking-des:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-index .row-inner .ranking .ranking-item .ranking-des:after {
+  clear: both;
+}
+/* line 123, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-item.top-ranking-item {
+  padding: 0 0 20px 0;
+  position: relative;
+  cursor: pointer;
+  width: 230px;
+  height: 164px;
+}
+/* line 129, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-item.top-ranking-item .ranking-title {
+  color: #fff;
+}
+/* line 133, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-item.top-ranking-item .ranking-des {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 141, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .ranking .ranking-title {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 154, scss/partials/_wgt-index.scss */
+.wgt-index .row-inner .topMovieRank {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 28px;
+  float: left;
+  background: #f88529 url(images/rank1.png) center no-repeat;
+}
+
+/* line 1, scss/partials/_wgt-interview.scss */
+.wgt-interview {
+  margin: 0;
+  /************/
+  /************/
+  /************/
+  /************/
+  /************/
+  /************/
+  /************/
+  /************/
+}
+/* line 4, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-inner {
+  width: 100%;
+  color: #fff;
+}
+/* line 8, scss/partials/_wgt-interview.scss */
+.wgt-interview .wgt-row-inner {
+  margin: 0 auto;
+  width: 911px;
+  color: #fff;
+}
+/* line 13, scss/partials/_wgt-interview.scss */
+.wgt-interview .wgt-row-inner .col-2 p {
+  line-height: 16px;
+}
+/* line 18, scss/partials/_wgt-interview.scss */
+.wgt-interview .wgt-row-inner .text-2 p {
+  font-size: 12px;
+  line-height: 14px;
+}
+/* line 24, scss/partials/_wgt-interview.scss */
+.wgt-interview p {
+  font-size: 30px;
+  line-height: 50px;
+}
+/* line 28, scss/partials/_wgt-interview.scss */
+.wgt-interview strong {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 100px;
+}
+/* line 34, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1 {
+  width: 100%;
+  height: 820px;
+  background: #58c1ed;
+}
+/* line 38, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1 span {
+  background: url(images/bg-iv-p1.png) no-repeat;
+}
+/* line 42, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 49, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 53, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1-bunner-img {
+  background-position: 0 0;
+  display: inline-block;
+  padding-left: 95px;
+  vertical-align: middle;
+}
+/* line 58, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-1-bunner-img span {
+  display: block;
+  width: 570px;
+  height: 397px;
+}
+/* line 65, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2 {
+  width: 100%;
+  height: 900px;
+  background: #bf7ee8;
+}
+/* line 69, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2 span {
+  background: url(images/bg-iv-p2.png) no-repeat;
+}
+/* line 73, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 80, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 84, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 112px;
+}
+/* line 88, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-2-bunner-img span {
+  display: block;
+  width: 480px;
+  height: 490px;
+}
+/* line 95, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3 {
+  width: 100%;
+  height: 900px;
+  background: #8c80ea;
+}
+/* line 99, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3 span {
+  background: url(images/bg-iv-p3.png) no-repeat;
+}
+/* line 103, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 110, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 114, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 158px;
+}
+/* line 118, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-3-bunner-img span {
+  display: block;
+  width: 550px;
+  height: 505px;
+}
+/* line 125, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4 {
+  width: 100%;
+  height: 900px;
+  background: #e8bf7e;
+}
+/* line 129, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4 span {
+  background: url(images/bg-iv-p4.png) no-repeat;
+}
+/* line 133, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 140, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 144, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 72px;
+}
+/* line 148, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-4-bunner-img span {
+  display: block;
+  width: 481px;
+  height: 575px;
+}
+/* line 155, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5 {
+  width: 100%;
+  height: 900px;
+  background: #bdd84d;
+}
+/* line 159, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5 span {
+  background: url(images/bg-iv-p5.png) no-repeat;
+}
+/* line 163, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 170, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 174, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 262px;
+}
+/* line 178, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-5-bunner-img span {
+  display: block;
+  width: 479px;
+  height: 473px;
+}
+/* line 185, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6 {
+  width: 100%;
+  height: 900px;
+  background: #ff9b9b;
+}
+/* line 189, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6 span {
+  background: url(images/bg-iv-p6.png) no-repeat;
+}
+/* line 193, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 200, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 204, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 160px;
+}
+/* line 208, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-6-bunner-img span {
+  display: block;
+  width: 566px;
+  height: 448px;
+}
+/* line 215, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7 {
+  width: 100%;
+  height: 900px;
+  background: #f68e51;
+}
+/* line 219, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7 span {
+  background: url(images/bg-iv-p7.png) no-repeat;
+}
+/* line 223, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7-bunner {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+/* line 230, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7-bunner-txt {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 234, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7-bunner-img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+/* line 238, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-7-bunner-img span {
+  display: block;
+  width: 800px;
+  height: 516px;
+}
+/* line 245, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8 {
+  width: 100%;
+  height: 900px;
+  background: #ea5f5f;
+  text-align: center;
+}
+/* line 250, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8 span {
+  display: inline-block;
+  width: 267px;
+  height: 171px;
+  padding-bottom: 36px;
+  margin: 0 auto;
+}
+/* line 257, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8 a {
+  display: inline-block;
+  width: 267px;
+  height: 102px;
+  margin: 0 auto;
+}
+/* line 264, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner {
+  width: 1210px;
+  height: 308px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: -webkit-center;
+}
+/* line 271, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-moviePlay {
+  display: inline-block;
+  width: 400px;
+  height: 308px;
+}
+/* line 275, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-moviePlay span {
+  background: url(images/bg-iv-t1.png) no-repeat;
+}
+/* line 278, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-moviePlay a {
+  background: url(images/bg-iv-b1.png) no-repeat;
+}
+/* line 282, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-class {
+  display: inline-block;
+  width: 400px;
+  height: 308px;
+}
+/* line 286, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-class span {
+  background: url(images/bg-iv-t2.png) no-repeat;
+}
+/* line 289, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-class a {
+  background: url(images/bg-iv-b2.png) no-repeat;
+}
+/* line 293, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-homework {
+  display: inline-block;
+  width: 400px;
+  height: 308px;
+}
+/* line 297, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-homework span {
+  background: url(images/bg-iv-t3.png) no-repeat;
+}
+/* line 300, scss/partials/_wgt-interview.scss */
+.wgt-interview .row-8-bunner-homework a {
+  background: url(images/bg-iv-b3.png) no-repeat;
+}
+
+/**
+ * fullPage 2.6.4
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+/* line 8, scss/partials/_wgt-fullpage.scss */
+html.fp-enabled,
+.fp-enabled body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*Avoid flicker on slides transitions for mobile phones #336 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 17, scss/partials/_wgt-fullpage.scss */
+#superContainer {
+  height: 100%;
+  position: relative;
+  /* Touch detection for Windows 8 */
+  -ms-touch-action: none;
+  /* IE 11 on Windows Phone 8.1*/
+  touch-action: none;
+}
+
+/* line 27, scss/partials/_wgt-fullpage.scss */
+.fp-section {
+  position: relative;
+  /* Safari<=5 Android<=3 */
+  /* <=28 */
+  box-sizing: border-box;
+}
+
+/* line 33, scss/partials/_wgt-fullpage.scss */
+.fp-slide {
+  float: left;
+}
+
+/* line 36, scss/partials/_wgt-fullpage.scss */
+.fp-slide, .fp-slidesContainer {
+  height: 100%;
+  display: block;
+}
+
+/* line 40, scss/partials/_wgt-fullpage.scss */
+.fp-slides {
+  z-index: 1;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  /* Safari<=6 Android<=4.3 */
+  transition: all 0.3s ease-out;
+}
+
+/* line 48, scss/partials/_wgt-fullpage.scss */
+.fp-section.fp-table, .fp-slide.fp-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 53, scss/partials/_wgt-fullpage.scss */
+.fp-tableCell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 59, scss/partials/_wgt-fullpage.scss */
+.fp-slidesContainer {
+  float: left;
+  position: relative;
+}
+
+/* line 63, scss/partials/_wgt-fullpage.scss */
+.fp-controlArrow {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  margin-top: -38px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 76, scss/partials/_wgt-fullpage.scss */
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  width: 0;
+  border-width: 38.5px 34px 38.5px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+/* line 82, scss/partials/_wgt-fullpage.scss */
+.fp-controlArrow.fp-next {
+  right: 15px;
+  border-width: 38.5px 0 38.5px 34px;
+  border-color: transparent transparent transparent #fff;
+}
+
+/* line 87, scss/partials/_wgt-fullpage.scss */
+.fp-scrollable {
+  overflow: scroll;
+}
+
+/* line 90, scss/partials/_wgt-fullpage.scss */
+.fp-notransition {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/* line 94, scss/partials/_wgt-fullpage.scss */
+#fp-nav {
+  position: fixed;
+  z-index: 100;
+  margin-top: -32px;
+  top: 50%;
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* line 102, scss/partials/_wgt-fullpage.scss */
+#fp-nav.right {
+  right: 17px;
+}
+
+/* line 105, scss/partials/_wgt-fullpage.scss */
+#fp-nav.left {
+  left: 17px;
+}
+
+/* line 108, scss/partials/_wgt-fullpage.scss */
+.fp-slidesNav {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  opacity: 1;
+}
+
+/* line 114, scss/partials/_wgt-fullpage.scss */
+.fp-slidesNav.bottom {
+  bottom: 17px;
+}
+
+/* line 117, scss/partials/_wgt-fullpage.scss */
+.fp-slidesNav.top {
+  top: 17px;
+}
+
+/* line 120, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul,
+.fp-slidesNav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 125, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li,
+.fp-slidesNav ul li {
+  display: block;
+  width: 14px;
+  height: 13px;
+  margin: 7px;
+  position: relative;
+}
+
+/* line 133, scss/partials/_wgt-fullpage.scss */
+.fp-slidesNav ul li {
+  display: inline-block;
+}
+
+/* line 136, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 146, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  height: 12px;
+  width: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 100%;
+}
+
+/* line 155, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  height: 4px;
+  width: 4px;
+  border: 0;
+  background: #333;
+  left: 50%;
+  top: 50%;
+  margin: -2px 0 0 -2px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+/* line 172, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+  width: 10px;
+  height: 10px;
+  margin: -5px 0px 0px -5px;
+}
+
+/* line 178, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li .fp-tooltip {
+  position: absolute;
+  top: -2px;
+  color: #fff;
+  font-size: 14px;
+  font-family: arial, helvetica, sans-serif;
+  white-space: nowrap;
+  max-width: 220px;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  width: 0;
+}
+
+/* line 191, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li:hover .fp-tooltip,
+#fp-nav.fp-show-active a.active + .fp-tooltip {
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  width: auto;
+  opacity: 1;
+}
+
+/* line 198, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li .fp-tooltip.right {
+  right: 20px;
+}
+
+/* line 201, scss/partials/_wgt-fullpage.scss */
+#fp-nav ul li .fp-tooltip.left {
+  left: 20px;
+}
+
+/* line 1, scss/partials/_wgt-interview-header.scss */
+.wgt-interview-header {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  height: 81px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-interview-header:before, .wgt-interview-header:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-interview-header:after {
+  clear: both;
+}
+/* line 10, scss/partials/_wgt-interview-header.scss */
+.wgt-interview-header .logo .logo-text {
+  background: url(images/logo-main-new.png) no-repeat;
+}
+/* line 16, scss/partials/_wgt-interview-header.scss */
+.wgt-interview-header .menu-site a.curr {
+  border-bottom-color: #566526;
+}
+/* line 22, scss/partials/_wgt-interview-header.scss */
+.wgt-interview-header .menu-user i {
+  display: none;
+}
+
+/* line 3, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic {
+  width: 1100px;
+  margin: 0 auto;
+}
+/* line 7, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list {
+  margin-left: -50px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-collection .collection-list-pic .list:before, .wgt-collection .collection-list-pic .list:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-collection .collection-list-pic .list:after {
+  clear: both;
+}
+/* line 10, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list li {
+  width: 210px;
+  height: 239px;
+  position: relative;
+  margin-top: 14px;
+  margin-left: 70px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 22, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list input[type="checkbox"] {
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  margin: 9px 0 0 9px;
+}
+/* line 32, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies {
+  position: relative;
+  padding: 30px 5.5px 0 5.5px;
+}
+/* line 35, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies .movies-img {
+  width: 201px;
+  height: 144px;
+  overflow: hidden;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 44, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 49, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies a {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  width: 201px;
+  height: 144px;
+  background: transparent;
+}
+/* line 56, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies a i {
+  display: block;
+  background: url(images/btn-video-play.png) no-repeat;
+  width: 201px;
+  height: 144px;
+  margin: 0 auto;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+/* line 69, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies a:hover {
+  background: #000;
+  background: rgba(0, 0, 0, 0.4);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+}
+/* line 75, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .movies a:hover i {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+/* line 84, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list h3 {
+  font-size: 12px;
+  color: #292d33;
+  margin: 6px 0 2px 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 92, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .author {
+  font-size: 12px;
+  color: #999;
+  padding-left: 7px;
+}
+/* line 98, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-pic .list .btn-del {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0 7px 9px 0;
+  display: block;
+}
+/* line 107, scss/partials/_wgt-collection.scss */
+.wgt-collection .collection-list-table {
+  display: none;
+  padding: 0 30px;
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-collection .collection-list-table:before, .wgt-collection .collection-list-table:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-collection .collection-list-table:after {
+  clear: both;
+}
+
+/* line 2, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table {
+  padding: 0 30px;
+  /* IE7 */
+}
+/* line 37, scss/partials/_mixin.scss */
+.wgt-feedback .feedback-table:before, .wgt-feedback .feedback-table:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+/* line 44, scss/partials/_mixin.scss */
+.wgt-feedback .feedback-table:after {
+  clear: both;
+}
+/* line 8, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table thead tr .td-content {
+  width: 605px;
+  text-align: left;
+  padding-left: 100px;
+}
+/* line 17, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr:last-child td {
+  border-bottom: 1px dashed #c6d4c3;
+}
+/* line 22, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table .last-child-td {
+  border-bottom-width: 1px;
+  border-bottom-color: #c6d4c3;
+  border-bottom-style: dashed;
+}
+/* line 32, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr td {
+  height: 24px;
+  line-height: 24px;
+  padding: 9px 0;
+}
+/* line 38, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-input {
+  padding-top: 11px;
+  vertical-align: top;
+}
+/* line 42, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-title {
+  width: 695px;
+  padding-left: 25px;
+}
+/* line 45, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-title .title {
+  width: 100%;
+  height: auto;
+  white-space: normal;
+  line-height: 24px;
+}
+/* line 51, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-title .time {
+  font-size: 12px;
+  color: #cfcfcf;
+  padding-left: 20px;
+}
+/* line 57, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-content {
+  width: 700px;
+}
+/* line 60, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-reply {
+  padding-left: 84px;
+  background-color: #f0f0f0;
+  color: #f88529;
+}
+/* line 66, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-state {
+  text-align: center;
+  vertical-align: top;
+  width: 200px;
+}
+/* line 71, scss/partials/_wgt-feedback.scss */
+.wgt-feedback .feedback-table tbody tr .td-ope {
+  vertical-align: top;
+}
+
+@media screen and (max-width: 639px) {
+  /* line 14, scss/partials/_responsive.scss */
+  html {
+    font-size: 312.5%;
+  }
+}
+/* line 1, scss/partials/_wgt-import.scss */
+.mask {
+  position: absolute;
+  top: 0px;
+  filter: alpha(opacity=60);
+  background-color: #777;
+  z-index: 1002;
+  left: 0px;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+}
+
+/* line 10, scss/partials/_wgt-import.scss */
+.wgt-import {
+  background: url(images/bg-login-0.jpg);
+  background-size: cover;
+}
+/* line 13, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner {
+  min-height: 820px;
+  background-image: url(images/import/background-import.png);
+  background-repeat: no-repeat;
+  background-position: 512px 155px;
+}
+/* line 18, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper {
+  margin-top: 150px;
+}
+/* line 20, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area {
+  float: left;
+  text-align: center;
+  color: #fff;
+  width: 470px;
+  height: 320px;
+  margin-top: 50px;
+  background: url(images/import/movie_background.png) no-repeat;
+}
+/* line 28, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .movie-name {
+  padding-top: 95px;
+}
+/* line 30, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .movie-name .text-name {
+  font-size: 18px;
+}
+/* line 33, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .movie-name .input-name {
+  width: 290px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: #3f3f3f;
+  font-size: 16px;
+}
+/* line 41, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .btn-make {
+  width: 170px;
+  height: 43px;
+  margin-right: 28px;
+  border-radius: 5px;
+  margin-top: 28px;
+  font-size: 20px;
+  padding-left: 26px;
+  position: relative;
+}
+/* line 50, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .btn-make .icon-btn {
+  position: absolute;
+  display: inline-block;
+  left: 25px;
+}
+/* line 57, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import {
+  margin-top: 26px;
+  text-align: left;
+}
+/* line 60, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import .scenario-text {
+  margin-left: 45px;
+  font-size: 18px;
+  float: left;
+}
+/* line 66, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import .file-name {
+  width: 224px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 26px;
+  display: none;
+}
+/* line 77, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import .scenario-import-link {
+  font-size: 16px;
+  cursor: pointer;
+  color: #77bd28;
+  line-height: 26px;
+  position: relative;
+}
+/* line 83, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import .scenario-import-link .file-input-wrapper {
+  display: block;
+  height: 26px;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 120px;
+  z-index: 300;
+}
+/* line 94, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .scenario-import .scenario-import-link .file-input-wrapper input {
+  border: medium none;
+  font-size: 50px;
+  height: 200px;
+  left: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: -50px;
+  width: 120px;
+  cursor: pointer;
+}
+/* line 110, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .download-scenario {
+  text-align: right;
+  margin: 35px 15px 0 0;
+}
+/* line 113, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .download-scenario .download-scenario-text {
+  font-size: 14px;
+  position: relative;
+  float: right;
+  padding-left: 30px;
+}
+/* line 118, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .download-scenario .download-scenario-text .icon-question-mask {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+/* line 123, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .movie-area .download-scenario .download-scenario-text a {
+  color: #fff;
+}
+/* line 129, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .user-info-area {
+  text-align: left;
+  display: block;
+  width: 700px;
+  float: right;
+  color: #616161;
+}
+/* line 135, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .user-info-area .hello-text {
+  font-size: 20px;
+  padding-left: 12px;
+}
+/* line 138, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .user-info-area .hello-text .user-name {
+  color: #77bd28;
+  margin: 0 5px;
+}
+/* line 143, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .import-wrapper .user-info-area .info-text {
+  font-size: 27px;
+  padding-left: 115px;
+  padding-top: 18px;
+  font-style: italic;
+}
+/* line 151, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error {
+  display: none;
+  border: 3px solid #949494;
+  box-shadow: 0 0 15px #949493;
+  font-size: 16px;
+  width: 616px;
+  height: 423px;
+  background-color: #fff;
+}
+/* line 159, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .error-title {
+  padding-left: 32px;
+  height: 50px;
+  background-color: #f0f0f0;
+  color: #303030;
+  font-weight: 700;
+  line-height: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+/* line 169, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .error-hint {
+  margin: 0 32px;
+  height: 65px;
+  line-height: 65px;
+  border-bottom: 1px solid #dbdbdb;
+}
+/* line 175, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .error-content {
+  padding-left: 32px;
+}
+/* line 177, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .error-content ul {
+  overflow: auto;
+  overflow-x: hidden;
+  height: 235px;
+}
+/* line 181, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .error-content ul li {
+  padding-top: 7px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* line 192, scss/partials/_wgt-import.scss */
+.wgt-import .row-inner .alert-error .btn-error {
+  width: 85px;
+  height: 35px;
+  margin-left: 495px;
+  border-radius: 5px;
+  background: #f0f0f0;
+  line-height: 35px;
+  text-align: center;
+  color: #a6a6a6;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.co_footer{background-color:#4E4E4E;border-top:1px solid #E9E9E9; color: #F6F6F6;  float: left; font-size: 12px; padding: 35px 0 50px; width: 100%; min-width:1200px;}
+.mit_top{margin:50px  auto 0;}
+.footer{width:1200px; margin:0 auto;  text-align:center;margin-bottom: 135px;}
+.subfooter {float:left; text-align:left; width:360px;}
+.subfooter ul{float:left;}
+.subfooter li{float:left; line-height:20px; margin:0 30px 0 0; padding:5px 0;}
+.subfooter li a{ color:#F6F6F6; font-size:16px;  font-family:"微软雅黑";}
+.subfooter .icp-no{ line-height: 20px;}
+
+.subfooter-cent{ font-family:"微软雅黑";width:480px;  float: left; text-align:center;}
+.subfooter-cent h1 {font-size: 30px; font-weight: bold; line-height: 30px; margin: 0;}
+.subfooter-cent h2 { font-size: 18px; font-weight: normal; margin: 5px 0;}
+
+.subfooter-cent li a{ float:left; text-align:center;margin-left:30px; margin-top:15px;}
+
+.subfooter-right{ font-family:"微软雅黑";width:360px;  float: left; text-align:right;}
+.subfooter-right h1 {font-size: 30px; font-weight: bold; line-height: 30px; margin: 0;}
+.subfooter-right h2 { font-size: 18px; font-weight: normal; margin: 5px 0; margin-right:48px;}
+
+.guanz{ margin-left:152px;overflow:hidden;}
+.subfooter-right li a{ float:left; text-align:center;margin-left:30px; margin-top:15px;}
+
+.copyright{line-height:40px; }
+.guanz span{display:inline-block; width:34px;height: 28px; background: url(../img/focus.png) no-repeat 0 0;}
+span.weixin-icon{ background-position: -50px 0;}
+span.mail-icon{ background-position: -100px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

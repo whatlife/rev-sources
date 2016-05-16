@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, dl, dt, dd { padding:0; margin:0;}
+body{font:14px/1.5 Arial,sans-serif,"SimSun";color:#333;}
+table { border-collapse: collapse; border-spacing: 0; }
+img { vertical-align: top; }
+input, button { vertical-align: middle; border: none; }
+button { cursor: pointer; }
+abbr, acronym { border: 0px; }
+.fl{ float:left;}
+.fr{ float:right;}
+a{text-decoration:none; cursor:pointer;}
+.clear{clear:both;}
+ol, ul, dl, li{ list-style:none outside none;}
+
+
+
+/*填写原因*/
+
+.conmon{padding:10px; background-color:#f2f2f2; position:relative;}
+.table{ width:100%; background-color:#fff; border:1px solid #d9d9d9;}
+.table th{ 
+	background-color:#66cccc; 
+	color:#303030; 
+	border-bottom:1px solid #d9d9d9;
+	border-right:1px solid #5aa4a3;
+	text-align:right;
+	padding:10px;
+	font-weight:500;
+}
+.table td{
+	border-bottom:1px solid #d9d9d9;
+	border-right:1px solid #d9d9d9;
+	text-align:left;
+	padding:10px;
+}
+.check_text{
+	color: #666666;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px;
+	background-color: #e6e6e6;
+    border-color: #e6e6e6;
+	margin-left:10px;	
+}
+.bottom{
+	position: absolute;
+	bottom:-40px;
+	width:140px;
+	height:40px;
+	background-color:#26a8e2;
+	line-height:40px;
+	text-align:center;
+	color:#fff;
+	right:10px;
+	cursor:pointer;
+}
+
+
+/*用户详情*/
+.left_nr{
+	padding:10px;
+	background-color:#fff;
+	border:1px solid #d9d9d9;
+}
+.aic_l{ border:1px solid #d9d9d9; margin-bottom: 2px;}
+.aic_l strong{
+	width:90px;
+	height:40px;
+	line-height:40px;
+	background-color:#66cccc;
+	display: inline-block;
+	text-align:right;
+	padding-right:10px;
+	font-weight: 500;
+}
+.aic_l span{
+	height:40px;
+	line-height:40px;
+	padding:0 10px;
+}
+.sfz_img{
+	width:390px; 
+	height:200px;
+	background-color:#e6e6e6;
+	margin-top: 18px;	
+}
+
+.right_n{
+	border:1px solid #d9d9d9;
+	
+}
+.grxx{
+	width:530px;
+	height:40px;
+	line-height:40px;
+	background-color:#66cccc;
+	padding-left:10px;
+	
+}
+.ac{
+	background-color:#303030;
+	color:#fff;	
+}
+.table strong{
+	padding:0 15px;
+	
+}
+
+/*发布频道*/
+
+.con_con{
+	background-color:#fff;
+}
+.con_logo{
+	border-bottom:1px solid #c9c9c9;
+	padding:15px 0;	
+}
+.logo_l{
+	float:left;
+}
+.logo_l span{ color:#F00;}
+
+.tu_lo{
+	float:left;
+	margin-left:10px;
+}
+.lo_img{
+	background:url(logo.png) no-repeat scroll 0 0;
+	width:142px;
+	height:33px;
+	margin-bottom: 10px;
+}
+.btg_a{
+	padding:5px 20px;
+	background-color:#cbd9e7;
+	text-align:center;
+	cursor:pointer;
+}
+
+.inquirySel{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #e6e6e6;
+    border-color: -moz-use-text-color #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: 0 1px 1px 0;
+    height: 34px;
+    line-height: 34px;
+    padding: 9px 6px;
+    width: 225px;
+	margin-right:20px;	
+}
+
+.inquiryIpt{
+	 -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #e6e6e6;
+    border-color: -moz-use-text-color #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: 0 1px 1px 0;
+    line-height: 16px;
+    padding: 9px 6px;
+    width: 210px;
+	margin-right:20px;
+}	
+
+.btg_bot{
+	background-color:#26a8e2;
+	width:90px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	cursor:pointer;
+	margin-top:10px;
+	margin-right:10px;
+	color:#fff;	
+}
+
+.table .aic_1_1{
+	background-color:#fafafa;
+	border-right:2px solid #d9d9d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

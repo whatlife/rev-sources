@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+/*institution css*/
+.no-border-top {
+    border-top: none!important;
+}
+.institution-login {
+    background: url(../images/institution_bg.jpg) top center no-repeat;
+    min-height: 800px;
+}
+
+.institution-login .row-inner {
+    width: 1108px;
+    margin: 0 auto;
+}
+
+.institution-login .logo-hd {
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 0 75px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.institution-bd {
+    background: url(../images/institution_cent_bg.png) center center scroll no-repeat;
+    width: 1099px;
+    height: 416px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.institution-item .new-ribbon {
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    top: 2px;
+    left: 30px;
+    background: url(../images/new-ribbon.png) no-repeat;
+}
+
+.institution-form {
+    float: left;
+    width: 378px;
+    position: relative;
+    margin-left: 15px;
+}
+
+.institution-form .login-form {
+    border: 1px solid #b6c5c8;
+    margin-top: 32px;
+}
+
+.institution-form .form-header {
+    border-bottom: 1px solid #b6c5c8;
+    height: 51px;
+    line-height: 50px;
+}
+.institution-form .form-title {
+    clear: both;
+}
+
+.institution-form .title-item {
+    float: left;
+    width: 50%;
+    *width: 187px;
+    color: #5da8e7;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background: #f9f8f9;
+    border-right: 1px solid #b6c5c8;
+}
+
+.border-side {
+    border-right: 1px solid;
+}
+
+.institution-form .title-item.active {
+    color: #666666;
+    background: #fff;
+    height: 51px;
+}
+
+.institution-form .form-body {
+    padding: 10px 16px 2px 16px;
+    /*border-top: 1px solid #b6c5c8;*/
+    background: #fff;
+}
+
+.institution-form .form-group {
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+.institution-form .form-label {
+    color: #666;
+    margin: 10px 12px 0px 0px;
+    width: 50px;
+    display: inline-block;
+    text-align: right;
+    *float: left;
+}
+
+.institution-form .form-group input {
+    width: 275px;
+    *width: 260px;
+}
+
+.institution-form .form-input {
+    display: inline-block;
+}
+
+.institution-form .form-group .help-tip {
+    font-size: 14px;
+    display: none;
+}
+
+.institution-form .form-group .help-tip p {
+    position: absolute;
+    color: #F66;
+}
+
+.institution-form .form-group .help-tip i {
+    position: absolute;
+}
+
+.institution-form .form-group .help-tip .icon-error {
+    right: -8px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url();
+}
+
+.institution-form .form-forget-password {
+    margin-top: 18px;
+    padding-left: 66px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #5da8e7;
+    overflow-y: hidden;
+    clear: both;
+}
+
+.institution-form .form-opts {
+    padding-left: 66px;
+    padding-bottom: 20px;
+}
+
+.institution-form .login-btn {
+    width: 275px;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    background-color: #66B219;
+    background-size: 100% auto;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
+
+.institution-form .login-btn:hover {
+    opacity: 0.9;
+    filter: (alpha=90);
+}
+
+.institution-form .other-login-type {
+    border-top: 1px solid #DCDCDC;
+    padding: 10px 0px 15px 125px;
+    color: #BDBDBD;
+    font-size: 14px;
+}
+
+.institution-form .other-login-type span {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.institution-form .other-login-type .icon,
+.wgt-registry .other-login-type .icon {
+    vertical-align: bottom;
+    width: 27px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.login-btn,
+.icon {
+    display: inline-block;
+}
+
+.institution-form .other-login-type .shareQQ {
+    width: 22px;
+    background-position: 0px -7px;
+    background-repeat: no-repeat;
+}
+
+.institution-form .other-login-type .shareQQ:hover {
+    background-position: 0px -44px;
+    background-repeat: no-repeat;
+}
+
+.institution-form .other-login-type .shareWeixin {
+    background-position: 0px -118px;
+    background-repeat: no-repeat;
+}
+
+.institution-form .other-login-type .shareWeixin:hover {
+    background-position: 0px -155px;
+    background-repeat: no-repeat;
+}
+
+.institution-form .other-login-type .shareWeibo {
+    background-position: 0px -81px;
+    background-repeat: no-repeat;
+}
+
+.institution-form .other-login-type .shareWeibo:hover {
+    background-position: 0px -192px;
+    background-repeat: no-repeat;
+}
+
+
+/*banner slider S*/
+
+
+
+.institution-item {
+    float: left;
+    background: url(../images/example-frame.png) center center no-repeat;
+    width: 670px;
+    height: 346px;
+    margin-top: 44px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.institution-item .slider-item {
+    width: 570px;
+    height: 270px;
+    position: relative;
+    margin: 23px auto;
+}
+
+.banner {
+    height: 288px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.banner .slides li {
+    width: 100%;
+    height: 100%;
+}
+
+.banner ul li {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .match_slides a {
+    width: 100%;
+    height: 270px;
+    display: block;
+}
+
+.flex-direction-nav a {
+    overflow: hidden;
+    display: block;
+    background: url(../images/arrow-prev.png) no-repeat;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    -webkit-transition: all .3s ease;
+    position: absolute;
+    top: 38%;
+    font-size: 0;
+    width: 24px;
+    height: 42px;
+}
+
+.flex-direction-nav .flex-next {
+    right: 12px;
+    background-position: 0 -44px;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 9px;
+    background-position: 0 0;
+}
+
+.banner:hover .flex-next {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.banner:hover .flex-prev {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.banner:hover .flex-next:hover,
+.banner:hover .flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    margin: 0 2px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-paging li a {
+    background: url(../images/dot.png) no-repeat 0 -16px;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -99em;
+    width: 16px;
+    cursor: pointer;
+}
+
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+    background-position: 0 0;
+}
+
+.banner img {
+    width: 570px;
+    height: 270px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*banner slider E*/
+
+
+
+.quick-login {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.quick-login .user-header {
+    width: 125px;
+    height: 127px;
+    background: url(../images/user_frame.png) center center no-repeat;
+    margin: 0 auto;
+    margin: 8px auto 24px;
+}
+
+.quick-login .user-header .hd {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    margin: 18px auto 10px;
+}
+
+.quick-login .user-header .hd-name {
+    width: 80px;
+    color: #5da8e7;
+    font-size: 14px;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.quick-login .form-opts {
+    padding-left: 0;
+    text-align: center;
+}
+
+.archives-login .form-opts {
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+
+
+
+.archives-steps {
+    background: url(../images/archives-steps.png) center center no-repeat;
+    width: 348px;
+    height: 45px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+    clear: both;
+    position: relative;
+}
+
+.archives-steps .step {
+    position: absolute;
+    text-align: center;
+    top: 4px;
+}
+
+.archives-steps .step p {
+    padding-top: 10px;
+    color: #666;
+}
+
+.archives-steps .step span {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    line-height: 34px;
+    position: relative;
+    color: #a0a3b1;
+    /*font-style: italic;*/
+}
+
+.archives-steps .step1 {
+    left: 4px;
+}
+
+.archives-steps .step2 {
+    left: 146px;
+}
+
+.archives-steps .step3 {
+    left: 310px;
+}
+
+.archives-steps .step.active span {
+    background: #5da8e7;
+    border-radius: 34px;
+    color: #fff;
+}
+
+.archives-steps .step.active p {
+    color: #5da8e7;
+}
+.institution-form .form-tip-error {
+    text-align: center;
+    background: #ffd3d3;
+    color: #ff1e1e;
+    position: absolute;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 13px;
+}

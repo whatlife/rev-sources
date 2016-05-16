@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.valid{
+	color:#575757;
+	line-height:30px;
+	height:30px;
+	margin-left:5px;
+	margin-top:5px;
+	display:none;
+}
+
+.valid.success{color:#00ff00}
+.valid.error{color:#ff0000}
+.valid.tip{color:#888888}

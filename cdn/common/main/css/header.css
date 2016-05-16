@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.topber{width:100%; height:68px; background-color:#fff; border-bottom:2px solid #3baa24; min-width:1200px;}
+.topber_x{width:100%; height:1px; background-color:#c7d3c5; margin-bottom:25px;min-width:1200px;}
+.header{width:1200px; height:60px; margin:0 auto;}
+.logo{width:265px;line-height:65px;font-size: 27px;color:#666666;}
+.logo a{background: url(../img/logo-min.png) no-repeat scroll 0 0; display:block;height:58px; float:left;line-height:65px;padding-left: 62px; }
+
+.head ul li{ float:left; padding-top:15px;}
+.head ul li a{ color:#333; margin:0 15px;padding:5px 2px; display:block; font-size:18px; font-family:"微软雅黑";}
+.head .turr{border-bottom:3px solid #F88529;}
+
+.top_left{padding-top: 28px; font-size:14px;}
+.top_left a{ color:#333333; margin-left:5px;}
+.top_left .xiaox{background: url(../img/icon_mail.png) no-repeat scroll 8px 3px; padding-left:30px; margin-left:10px;}
+.top_left .xiaox i{color:#333333; margin-left:5px;}
+
+.search{margin-top:14px;}
+.sea_m{ width:70px; height:30px; background-color:#f0f0f0; float:left;}
+.sea_s{width: 205px; height:30px; background-color:#f9f9f9; float:left;}
+.sea_m a{background:url(../img/a.jpg) no-repeat scroll 45px 0; line-height:30px; display:block; padding-left:10px; color:#555555;}
+.txt{margin-top:7px; background-color:#f9f9f9; padding-left:10px; width:200px;}
+.sear{ background:url(../img/search.jpg) no-repeat scroll 0 0; display:block; width:43px; height:30px; float:left; cursor:pointer;}
+
+.ico_1{background:url(../img/xx.jpg) no-repeat scroll 0 18px; display:block; width:30px; height:55px;}
+.ico_2{ background:url(../img/ttx.png) no-repeat scroll 0 0; display:block; width:40px; height:40px; float:left; margin-right: 5px; margin-top: 8px;}
+.head ul li a:hover{color:#ff6c00;}
+
+.nav_bg .user{ margin-top:15px; font-size: 16px;line-height: 30px;}
+.login-before,.loged{line-height: 40px; vertical-align: bottom; margin-top:12px;}
+.user a{ margin-left: 20px;vertical-align:middle; color: #333; font-size: 14px;}
+.message{}
+.user a.my-img{ position: relative;}
+.message i{color:#666666;color:#f40;font-size: 14px; padding:0;margin: 0;}
+.head_h a.my-img{ padding:0px}
+.head_h ul.user-setting{  z-index:100;display:none;position: absolute; top: 13px;right:0px;width:130px;padding-top:32px;}
+.head_h ul.user-setting li{float: none; line-height: 30px;background:#FFFFFF;border-bottom: 1px solid #EEEEEE;color:#333333;padding-left: 15px;font-size: 14px;}
+.mobile-download{ margin-right:20px;}
+
+
+
+
+
+
+

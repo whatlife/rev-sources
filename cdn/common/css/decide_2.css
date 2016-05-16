@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.valid{
+	background: url("../img/prompt_r.png") no-repeat scroll 10px 7px #fff;
+    display: none;
+	border: 1px solid #ff6000;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    min-height:20px;
+    padding: 5px 10px 10px 30px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    width: 200px;
+}
+
+.valid.success{color:#00ff00}
+.valid.error{color:#ff6000}
+.valid.tip{color:#888888}
