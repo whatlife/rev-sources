@@ -8,22 +8,19 @@ a{ cursor:pointer;}
 ol, ul, dl, li {list-style: none outside none;}
 
 /*登录*/
-
 .nav > a {
     color:#333333;
     line-height:70px;
 }
-
 .nav span{
 	 color: #a6a6a6;
     padding-right: 10px;
 }
-
 .cf_bg{
 	width:1200px;
 	height:899px;
-	margin:0 auto;
 	position:relative;
+    margin:0 auto;
 }
 .form-signin {
 	background-color: #fff;

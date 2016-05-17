@@ -18,23 +18,10 @@ var parentCwd = path.resolve(cwd, '..');
 
 // TODO '''''
 // devTest目录是先执行mincss， minjs，minimg，cptodir这些命令之后，生成的压缩版本的资源文件的目录
-// 必须先有这个目录，才能计算到md5值 
+// 必须先有这个目录，才能计算到md5值
 var compressedCwd = parentCwd+ '\\devTest';
 
 
-/*-------------------------------------------------------------------
-    Change Log
-
-    # 2016-05-12
-    - 压缩css
-    - 压缩js
-    - 图片处理
-
-    # 2016-05-10
-    本文件目前提供2个task
-    1 gulp revHtml用于将jsp页面中，替换引用的静态文件
-    2 gulp clean用于清除生成的文件
--------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------
 // 正则表达式分4组
@@ -84,6 +71,7 @@ function filesMd5(file) {
         groups = FILE_DECL.exec(line);
         if (groups && groups.length > 1) {
             var normPath = path.normalize(groups[3]);
+
             if (groups[2].toLowerCase() == 'common') {
                 _pathCommonOrStatic = 'common';
             } else {
@@ -96,7 +84,7 @@ function filesMd5(file) {
                 data = fs.readFileSync(afterMd5DependencyPath);
                 hash = crypto.createHash('md5');
                 hash.update(data.toString(), 'utf8');
-                originGroupSubItem = groups[3].concat('?v=' + hash.digest('hex'));
+                originGroupSubItem = groups[3].concat('?v=' + hash.digest('hex').substring(0, 8));
                 line = line.replace(groups[3], originGroupSubItem);
             } catch (e) {
                 // fail silently.

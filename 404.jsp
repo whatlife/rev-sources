@@ -7,6 +7,7 @@
 	<title>404</title>
   <link href="<%=R.getCommonPath("main/css/style.css") %>" type="text/css" rel="stylesheet" />
   <link href="<%=R.getCommonPath("lib/bootstrap/css/bootstrap.min.css") %>" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="<%=R.getCommonPath("lib/jquery-1.8.0.js") %>"></script>
 </head>
 <body class="build_bg">
 	<div class="build_img"></div>

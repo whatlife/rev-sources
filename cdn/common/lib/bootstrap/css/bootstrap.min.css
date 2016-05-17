@@ -3,6 +3,9 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -72,10 +75,10 @@ small {
 }
 sub,
 sup {
-  position: relative;
-  font-size: 75%;
   line-height: 0;
+  font-size: 75%;
   vertical-align: baseline;
+  position: relative;
 }
 sup {
   top: -.5em;
